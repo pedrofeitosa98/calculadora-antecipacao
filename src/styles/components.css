@@ -4,7 +4,7 @@ input {
   width: 15.625rem;
 
   margin-top: .375rem;
-  margin-bottom: 1.625rem;
+  /* margin-bottom: 1.625rem; */
 
   background-color: var(--white);
   border-radius: 4px;
@@ -13,27 +13,27 @@ input {
   transition: var(--animate-time);
 }
 
-::placeholder {
+input::placeholder {
   font-size: .875rem;
-
+  font-weight: 700;
   color: var(--gray-2);
 
   transition: var(--animate-time);
 }
 
-:hover {
+input:hover {
   border: 1px solid var(--gray-3);
 }
 
-:focus {
-  border: 1px solid var(--blue-1);
+input:focus {
+  border: 1px solid var(--blue-0);
 }
 
-:hover::placeholder {
+input:hover::placeholder {
   color: var(--gray-3);
   padding-left: 6px;
 }
 
-:focus::placeholder {
+input:focus::placeholder {
   opacity: 0;
 }
