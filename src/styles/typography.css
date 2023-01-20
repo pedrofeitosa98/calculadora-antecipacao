@@ -1,0 +1,55 @@
+.title1 {
+  font-size: 1.5rem;
+}
+
+.title2 {
+  font-size: 1rem;
+}
+
+.title3 {
+  font-size: .875rem;
+}
+
+.title4 {
+  font-size: .6875rem;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-thin {
+  font-weight: 400;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.color-black {
+  color: var(--black-1);
+}
+
+.color-gray-1 {
+  color: var(--gray-1);
+}
+
+.color-gray-2 {
+  color: var(--gray-2);
+}
+
+.color-gray-3 {
+  color: var(--gray-3);
+}
+
+.color-blue-1 {
+  color: var(--blue-1);
+}
+
+.color-blue-2 {
+  color: var(--blue-2);
+}

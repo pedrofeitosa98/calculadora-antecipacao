@@ -1,0 +1,39 @@
+input {
+  padding: 10px 14px;
+  height: 2.3125rem;
+  width: 15.625rem;
+
+  margin-top: .375rem;
+  margin-bottom: 1.625rem;
+
+  background-color: var(--white);
+  border-radius: 4px;
+  border: 1px solid var(--gray-1);
+
+  transition: var(--animate-time);
+}
+
+::placeholder {
+  font-size: .875rem;
+
+  color: var(--gray-2);
+
+  transition: var(--animate-time);
+}
+
+:hover {
+  border: 1px solid var(--gray-3);
+}
+
+:focus {
+  border: 1px solid var(--blue-1);
+}
+
+:hover::placeholder {
+  color: var(--gray-3);
+  padding-left: 6px;
+}
+
+:focus::placeholder {
+  opacity: 0;
+}
