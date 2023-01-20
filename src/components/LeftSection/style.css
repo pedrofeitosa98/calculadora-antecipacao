@@ -1,0 +1,13 @@
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  height: 100%;
+  width: 62%;
+  padding: 2.5rem 3.5rem;
+  border-radius: 4px 0 0 4px;
+
+  background-color: var(--white);
+}

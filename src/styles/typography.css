@@ -14,15 +14,15 @@
   font-size: .6875rem;
 }
 
-.text-bold {
+.bold {
   font-weight: 700;
 }
 
-.text-thin {
+.thin {
   font-weight: 400;
 }
 
-.text-italic {
+.italic {
   font-style: italic;
 }
 
